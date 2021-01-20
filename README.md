@@ -1,5 +1,5 @@
 # react-parcel-starter
-Starter repo for React/Parcel projects
+Starter kit for React + Parcel projects
 
 ## Libraries
 - [Parcel](https://parceljs.org/)
