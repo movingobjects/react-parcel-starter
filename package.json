@@ -12,11 +12,10 @@
   "bugs": {
     "url": "https://github.com/movingobjects/react-parcel-starter/issues"
   },
-  "main": "src/index.js",
   "scripts": {
     "dev": "parcel serve './src/index.html' --no-cache --open",
-    "build": "rm -rf dist; parcel build './src/index.html' --no-source-maps --public-url ./ -d dist",
-    "empty-cache": "rm -rf .parcel-cache"
+    "build": "rm -rf './dist'; parcel build './src/index.html' --dist-dir './dist' --no-source-maps",
+    "empty-cache": "rm -rf './.parcel-cache'"
   },
   "devDependencies": {
     "parcel": "next",
